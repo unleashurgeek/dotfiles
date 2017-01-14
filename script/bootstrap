@@ -139,6 +139,8 @@ install_dotfiles () {
 
 # setup_gitconfig
 install_dotfiles
+info 'installing nano syntax highlighting'
+wget https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh -O- | sh
 
 # If we're on a Mac, let's install and setup homebrew.
 if [ "$(uname -s)" == "Darwin" ]
