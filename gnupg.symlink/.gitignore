@@ -1,0 +1,7 @@
+*
+!.gitignore
+!gpg.conf
+!gpg-agent.conf
+!dirmngr.conf
+!sks-keyservers.netCA.pem
+
